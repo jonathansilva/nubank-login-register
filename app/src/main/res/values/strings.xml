@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginRegisterUI</string>
+    <string name="logo">Logotipo</string>
+
+    <!-- Home -->
+    <string name="home_phrase">UI Login / Register ( Nubank )</string>
+
+    <!-- Login -->
+    <string name="login_phrase_phone">Para acessar o app digite o seu</string>
+    <string name="login_phone">telefone</string>
+    <string name="login_phrase_password">Agora digite a sua</string>
+    <string name="password">senha</string>
+
+    <!-- Register -->
+    <string name="register_phrase_fullname">Precisamos primeiro do seu</string>
+    <string name="fullname">nome completo</string>
+    <string name="hello">Olá</string>
+    <string name="register_phrase_hello">como você prefere ser chamado(a) ?</string>
+    <string name="register_email">E-mail</string>
+    <string name="register_phone">Telefone</string>
+    <string name="register_phrase_for_contact">para contato</string>
+    <string name="register_password_phrase">Quase lá!</string>
+    <string name="register_password_create_phrase">crie uma</string>
+    <string name="register_password_confirm_phrase">Agora é só</string>
+    <string name="confirm">confirmar</string>
+
+    <!-- Terms -->
+    <string name="check_privacy">Li e concordo com os Termos de Uso e Política de Privacidade</string>
+    <string name="error_message">Aceite os Termos de Uso e Política de Privacidade</string>
+    <string name="terms">Termos de Uso e Política de Privacidade</string>
+    <string name="error_accept">Para avançar, é preciso aceitar os termos</string>
+
+    <string name="name">nome</string>
+    <string name="nickname">apelido</string>
+    <string name="username">usuário</string>
+
+    <string name="forgot_password">Esqueci a senha &gt;</string>
+    <string name="login">Entrar</string>
+    <string name="logout">Sair</string>
+    <string name="sign_up">Cadastre-se, é grátis!</string>
+
+    <string name="old_password">Senha antiga</string>
+    <string name="new_password">Nova senha</string>
+
+    <string name="invalid_fullname">Informe seu nome e sobrenome</string>
+    <string name="empty_name">Informe seu nome completo</string>
+    <string name="empty_nickname">Informe seu apelido</string>
+    <string name="empty_email">Informe seu e-mail</string>
+    <string name="empty_phone">Informe seu telefone</string>
+    <string name="empty_email_phone">Informe seu e-mail ou telefone</string>
+    <string name="empty_password">Informe a senha</string>
+    <string name="empty_password_confirm">Informe a mesma senha criada anteriormente</string>
+
+    <string name="invalid_email">Informe um e-mail válido</string>
+    <string name="invalid_phone">O telefone deve conter apenas números</string>
+    <string name="invalid_phone_length">Verifique se informou o DDD</string>
+    <string name="invalid_password">Sua senha deve possuir no mínimo 8 caracteres</string>
+    <string name="invalid_password_confirm">Confirme a senha informada</string>
+
+    <string name="error_register_response">Erro ao se cadastrar, tente novamente mais tarde</string>
+    <string name="error_login_response">Erro na conexão, tente novamente</string>
+    <string name="error_request">Erro na conexão, tente novamente</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">Welcome</string>
+
+    <string name="test">Test</string>
+
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+</resources>

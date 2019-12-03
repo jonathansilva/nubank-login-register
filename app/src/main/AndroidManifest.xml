@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.project.loginregister">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/defaultTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".ui.activity.splash.SplashView" android:theme="@style/splash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login -->
+        <activity android:name=".ui.activity.home.HomeView" android:theme="@style/home" android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.login.LoginView" android:theme="@style/login_register" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- Register -->
+        <activity android:name=".ui.activity.register.RegisterView" android:theme="@style/login_register" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".ui.activity.terms.TermsView" />
+
+        <!-- Dashboard -->
+        <activity android:name=".ui.activity.dashboard.DashboardView" />
+    </application>
+</manifest>
