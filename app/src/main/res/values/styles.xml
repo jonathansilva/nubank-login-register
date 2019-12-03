@@ -1,0 +1,37 @@
+<resources>
+    <style name="defaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary</item>
+        <item name="android:textColorHint">@color/darkGrey</item>
+    </style>
+
+    <style name="home" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- statusbar transparent -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+
+    <style name="login_register" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorHint">@color/darkGrey</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/grey</item>
+    </style>
+
+    <style name="errorInput" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary</item>
+    </style>
+</resources>
