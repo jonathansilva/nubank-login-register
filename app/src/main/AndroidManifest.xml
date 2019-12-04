@@ -3,11 +3,9 @@
     package="app.project.loginregister">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".App"
@@ -21,6 +19,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <!-- Splash -->
         <activity android:name=".ui.activity.splash.SplashView" android:theme="@style/splash" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,12 +28,16 @@
             </intent-filter>
         </activity>
 
-        <!-- Login -->
+        <!-- Home -->
         <activity android:name=".ui.activity.home.HomeView" android:theme="@style/home" android:screenOrientation="portrait" />
+
+        <!-- Login -->
         <activity android:name=".ui.activity.login.LoginView" android:theme="@style/login_register" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
 
         <!-- Register -->
         <activity android:name=".ui.activity.register.RegisterView" android:theme="@style/login_register" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- Terms -->
         <activity android:name=".ui.activity.terms.TermsView" />
 
         <!-- Dashboard -->
