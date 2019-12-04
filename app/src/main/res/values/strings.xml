@@ -63,7 +63,7 @@
     <string name="error_request">Erro na conexão, tente novamente</string>
 
     <!-- Dashboard -->
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Olá mundo !</string>
 
     <string name="test">Test</string>
 

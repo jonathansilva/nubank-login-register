@@ -32,7 +32,7 @@ public class PasswordConfirmRegisterModel implements PasswordConfirmRegisterCont
 
     @Override
     public void request(User user) {
-        call = userService.register(user);
+        call = userService.create(user);
         call.enqueue(new Callback<User>() {
 
             @Override

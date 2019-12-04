@@ -7,6 +7,6 @@ import retrofit2.http.POST;
 
 public interface UserService {
 
-    @POST("register")
-    Call<User> register(@Body User user);
+    @POST("user")
+    Call<User> create(@Body User user);
 }

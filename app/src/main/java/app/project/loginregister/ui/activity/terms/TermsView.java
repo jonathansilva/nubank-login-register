@@ -5,7 +5,6 @@ import android.webkit.WebView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import app.project.loginregister.R;
 
 public class TermsView extends AppCompatActivity {
@@ -15,9 +14,6 @@ public class TermsView extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview);
-
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         webView = findViewById(R.id.webView);
         webView.loadUrl("https://www.google.com");
