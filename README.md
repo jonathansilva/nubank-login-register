@@ -1,6 +1,3 @@
-# LoginRegisterUI
-Nubank app-based user interface with animation
-
 ## Home
 
 ![photo_2019-12-02_23-21-27](https://user-images.githubusercontent.com/33843748/70016530-56c44080-155f-11ea-830a-7a97a91aa8fd.jpg)
