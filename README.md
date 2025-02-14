@@ -21,7 +21,3 @@
 ![photo_2019-12-02_23-21-45](https://user-images.githubusercontent.com/33843748/70016672-b4588d00-155f-11ea-844a-8e5ab3bb7f34.jpg)
 
 ![photo_2019-12-02_23-21-48](https://user-images.githubusercontent.com/33843748/70016681-bc183180-155f-11ea-882c-1d3334caf8f2.jpg)
-
-## Dashboard
-
-![Captura de tela de 2019-12-03 21-43-40](https://user-images.githubusercontent.com/33843748/70102242-48852b80-1616-11ea-82d2-446a29a175c9.png)
