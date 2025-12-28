@@ -1,23 +1,23 @@
 ## Home
 
-![home](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/home.jpg?raw=true)
+![home](screenshots/home.jpg)
 
 ## Login
 
-![login - phone](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/login%20-%20phone.jpg?raw=true)
+![login - phone](screenshots/login%20-%20phone.jpg)
 
-![login - password](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/login%20-%20password.jpg?raw=true)
+![login - password](screenshots/login%20-%20password.jpg)
 
 ## Register
 
-![register - fullname](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/register%20-%20fullname.jpg?raw=true)
+![register - fullname](screenshots/register%20-%20fullname.jpg)
 
-![register - nickname](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/register%20-%20nickname.jpg?raw=true)
+![register - nickname](screenshots/register%20-%20nickname.jpg)
 
-![register - email](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/register%20-%20email.jpg?raw=true)
+![register - email](screenshots/register%20-%20email.jpg)
 
-![register - phone](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/register%20-%20phone.jpg?raw=true)
+![register - phone](screenshots/register%20-%20phone.jpg)
 
-![register - password](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/register%20-%20password.jpg?raw=true)
+![register - password](screenshots/register%20-%20password.jpg)
 
-![register - password confirm](https://github.com/jonathansilva/nubank-login-register/blob/master/screenshots/register%20-%20password%20confirm.jpg?raw=true)
+![register - password confirm](screenshots/register%20-%20password%20confirm.jpg)
